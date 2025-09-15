@@ -1,3 +1,4 @@
+//C++20+ -> bit_width
 struct SparseTable{
     vector<vector<long long> > st;
     int n;
