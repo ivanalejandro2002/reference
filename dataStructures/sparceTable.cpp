@@ -1,4 +1,5 @@
 //C++20+ -> bit_width
+//#define bit_width(S) 64-__builtin_clzll(S)
 struct SparseTable{
     vector<vector<long long> > st;
     int n;
